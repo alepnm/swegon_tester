@@ -1,0 +1,1428 @@
+EESchema Schematic File Version 2
+LIBS:capacitors
+LIBS:disc
+LIBS:ics
+LIBS:mech
+LIBS:resistors_us
+LIBS:various
+LIBS:power
+LIBS:device
+LIBS:switches
+LIBS:relays
+LIBS:motors
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:swegon_tester-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L GND #PWR01
+U 1 1 5A785589
+P 3400 5350
+F 0 "#PWR01" H 3400 5100 50  0001 C CNN
+F 1 "GND" H 3400 5200 50  0000 C CNN
+F 2 "" H 3400 5350 50  0001 C CNN
+F 3 "" H 3400 5350 50  0001 C CNN
+	1    3400 5350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR02
+U 1 1 5A78EF84
+P 3300 4000
+F 0 "#PWR02" H 3300 3750 50  0001 C CNN
+F 1 "GND" H 3300 3850 50  0000 C CNN
+F 2 "" H 3300 4000 50  0001 C CNN
+F 3 "" H 3300 4000 50  0001 C CNN
+	1    3300 4000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR03
+U 1 1 5A78EFBF
+P 3300 4200
+F 0 "#PWR03" H 3300 3950 50  0001 C CNN
+F 1 "GND" H 3300 4050 50  0000 C CNN
+F 2 "" H 3300 4200 50  0001 C CNN
+F 3 "" H 3300 4200 50  0001 C CNN
+	1    3300 4200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L POT RV1
+U 1 1 5A78F468
+P 5450 4600
+F 0 "RV1" H 5300 4650 50  0000 C CNN
+F 1 "10k" H 5300 4550 50  0000 C CNN
+F 2 "Potentiometers:Potentiometer_Trimmer_ACP_CA6v_Horizontal" H 5450 4600 50  0001 C CNN
+F 3 "" H 5450 4600 50  0001 C CNN
+	1    5450 4600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L GND #PWR04
+U 1 1 5A78F596
+P 5450 5050
+F 0 "#PWR04" H 5450 4800 50  0001 C CNN
+F 1 "GND" H 5450 4900 50  0000 C CNN
+F 2 "" H 5450 5050 50  0001 C CNN
+F 3 "" H 5450 5050 50  0001 C CNN
+	1    5450 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR05
+U 1 1 5A790A7D
+P 4700 5050
+F 0 "#PWR05" H 4700 4800 50  0001 C CNN
+F 1 "GND" H 4700 4900 50  0000 C CNN
+F 2 "" H 4700 5050 50  0001 C CNN
+F 3 "" H 4700 5050 50  0001 C CNN
+	1    4700 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED D2
+U 1 1 5A791378
+P 3800 3450
+F 0 "D2" V 3800 3600 50  0000 C CNN
+F 1 "PIN4" H 3800 3350 50  0001 C CNN
+F 2 "LEDs:LED_D3.0mm" H 3800 3450 50  0001 C CNN
+F 3 "" H 3800 3450 50  0001 C CNN
+	1    3800 3450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED D3
+U 1 1 5A79179B
+P 4000 3050
+F 0 "D3" V 3800 3150 50  0000 C CNN
+F 1 "PIN5" H 4000 2950 50  0001 C CNN
+F 2 "LEDs:LED_D3.0mm" H 4000 3050 50  0001 C CNN
+F 3 "" H 4000 3050 50  0001 C CNN
+	1    4000 3050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED D4
+U 1 1 5A79191F
+P 4200 3450
+F 0 "D4" V 4000 3550 50  0000 C CNN
+F 1 "PIN7" H 4200 3350 50  0001 C CNN
+F 2 "LEDs:LED_D3.0mm" H 4200 3450 50  0001 C CNN
+F 3 "" H 4200 3450 50  0001 C CNN
+	1    4200 3450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED D5
+U 1 1 5A791AAD
+P 4400 3050
+F 0 "D5" V 4400 2900 50  0000 C CNN
+F 1 "PIN8" H 4400 2950 50  0001 C CNN
+F 2 "LEDs:LED_D3.0mm" H 4400 3050 50  0001 C CNN
+F 3 "" H 4400 3050 50  0001 C CNN
+	1    4400 3050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L TL431PS U1
+U 1 1 5A7954DF
+P 3050 3050
+F 0 "U1" H 3200 3400 50  0000 L CNN
+F 1 "TL431PS" H 3000 3300 50  0000 L CNN
+F 2 "Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm" H 4600 2850 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl431.pdf" H 4550 2750 50  0001 C CNN
+F 4 "0" H 4100 2950 60  0001 C CNN "Kaina"
+F 5 "Mikroschema" H 4000 3050 60  0001 C CNN "Pavadinimas"
+F 6 "SMD" H 4500 3050 60  0001 C CNN "Korpuso tipas"
+F 7 "ZELM090" H 3050 2750 60  0001 C CNN "ventcode"
+	1    3050 3050
+	-1   0    0    -1  
+$EndComp
+$Comp
+L GND #PWR06
+U 1 1 5A797D5E
+P 6150 4550
+F 0 "#PWR06" H 6150 4300 50  0001 C CNN
+F 1 "GND" H 6150 4400 50  0000 C CNN
+F 2 "" H 6150 4550 50  0001 C CNN
+F 3 "" H 6150 4550 50  0001 C CNN
+	1    6150 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR07
+U 1 1 5A798169
+P 7200 4550
+F 0 "#PWR07" H 7200 4300 50  0001 C CNN
+F 1 "GND" H 7200 4400 50  0000 C CNN
+F 2 "" H 7200 4550 50  0001 C CNN
+F 3 "" H 7200 4550 50  0001 C CNN
+	1    7200 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR08
+U 1 1 5A7981D4
+P 8250 4550
+F 0 "#PWR08" H 8250 4300 50  0001 C CNN
+F 1 "GND" H 8250 4400 50  0000 C CNN
+F 2 "" H 8250 4550 50  0001 C CNN
+F 3 "" H 8250 4550 50  0001 C CNN
+	1    8250 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR09
+U 1 1 5A79823F
+P 9300 4550
+F 0 "#PWR09" H 9300 4300 50  0001 C CNN
+F 1 "GND" H 9300 4400 50  0000 C CNN
+F 2 "" H 9300 4550 50  0001 C CNN
+F 3 "" H 9300 4550 50  0001 C CNN
+	1    9300 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR010
+U 1 1 5A7984DD
+P 6150 3850
+F 0 "#PWR010" H 6150 3700 50  0001 C CNN
+F 1 "VCC" H 6150 4000 50  0000 C CNN
+F 2 "" H 6150 3850 50  0001 C CNN
+F 3 "" H 6150 3850 50  0001 C CNN
+	1    6150 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR011
+U 1 1 5A798548
+P 7200 3850
+F 0 "#PWR011" H 7200 3700 50  0001 C CNN
+F 1 "VCC" H 7200 4000 50  0000 C CNN
+F 2 "" H 7200 3850 50  0001 C CNN
+F 3 "" H 7200 3850 50  0001 C CNN
+	1    7200 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR012
+U 1 1 5A7985B3
+P 8250 3850
+F 0 "#PWR012" H 8250 3700 50  0001 C CNN
+F 1 "VCC" H 8250 4000 50  0000 C CNN
+F 2 "" H 8250 3850 50  0001 C CNN
+F 3 "" H 8250 3850 50  0001 C CNN
+	1    8250 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR013
+U 1 1 5A79861E
+P 9300 3850
+F 0 "#PWR013" H 9300 3700 50  0001 C CNN
+F 1 "VCC" H 9300 4000 50  0000 C CNN
+F 2 "" H 9300 3850 50  0001 C CNN
+F 3 "" H 9300 3850 50  0001 C CNN
+	1    9300 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_xxx_0805_1% R12
+U 1 1 5A799E0E
+P 6300 3550
+F 0 "R12" H 6150 3650 60  0000 C CNN
+F 1 "330" H 6400 3650 60  0000 C CNN
+F 2 "resistors:R_0805" H 7150 3550 60  0001 C CNN
+F 3 "" H 4700 4050 60  0001 C CNN
+F 4 "ventcode" H 6300 3350 60  0001 C CNN "ventcode"
+F 5 "-" H 6350 3650 59  0001 C CNN "Nominalas"
+F 6 "0.001" H 7400 3450 60  0001 C CNN "Kaina"
+F 7 "0805" H 8000 3550 60  0001 C CNN "Korpusas"
+F 8 "1" H 7700 3450 60  0001 C CNN "Aukstis"
+F 9 "-" H 6800 3400 60  0001 C CNN "Marke"
+F 10 "Rezistorius" H 7000 3650 60  0001 C CNN "Pavadinimas"
+F 11 "-" H 6800 3450 60  0001 C CNN "Gamintojo Kodas"
+F 12 "-" H 6800 3350 60  0001 C CNN "Nuoroda"
+F 13 "SMD" H 7700 3550 60  0001 C CNN "Korpuso tipas"
+F 14 "-" H 6800 3300 60  0001 C CNN "Parametras"
+F 15 "-" H 6800 3250 60  0001 C CNN "Komentaras"
+	1    6300 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_xxx_0805_1% R14
+U 1 1 5A79A275
+P 7200 3550
+F 0 "R14" H 7050 3650 60  0000 C CNN
+F 1 "330" H 7300 3650 60  0000 C CNN
+F 2 "resistors:R_0805" H 8050 3550 60  0001 C CNN
+F 3 "" H 5600 4050 60  0001 C CNN
+F 4 "ventcode" H 7200 3350 60  0001 C CNN "ventcode"
+F 5 "-" H 7250 3650 59  0001 C CNN "Nominalas"
+F 6 "0.001" H 8300 3450 60  0001 C CNN "Kaina"
+F 7 "0805" H 8900 3550 60  0001 C CNN "Korpusas"
+F 8 "1" H 8600 3450 60  0001 C CNN "Aukstis"
+F 9 "-" H 7700 3400 60  0001 C CNN "Marke"
+F 10 "Rezistorius" H 7900 3650 60  0001 C CNN "Pavadinimas"
+F 11 "-" H 7700 3450 60  0001 C CNN "Gamintojo Kodas"
+F 12 "-" H 7700 3350 60  0001 C CNN "Nuoroda"
+F 13 "SMD" H 8600 3550 60  0001 C CNN "Korpuso tipas"
+F 14 "-" H 7700 3300 60  0001 C CNN "Parametras"
+F 15 "-" H 7700 3250 60  0001 C CNN "Komentaras"
+	1    7200 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_xxx_0805_1% R16
+U 1 1 5A79AACD
+P 8250 3550
+F 0 "R16" H 8100 3650 60  0000 C CNN
+F 1 "330" H 8350 3650 60  0000 C CNN
+F 2 "resistors:R_0805" H 9100 3550 60  0001 C CNN
+F 3 "" H 6650 4050 60  0001 C CNN
+F 4 "ventcode" H 8250 3350 60  0001 C CNN "ventcode"
+F 5 "-" H 8300 3650 59  0001 C CNN "Nominalas"
+F 6 "0.001" H 9350 3450 60  0001 C CNN "Kaina"
+F 7 "0805" H 9950 3550 60  0001 C CNN "Korpusas"
+F 8 "1" H 9650 3450 60  0001 C CNN "Aukstis"
+F 9 "-" H 8750 3400 60  0001 C CNN "Marke"
+F 10 "Rezistorius" H 8950 3650 60  0001 C CNN "Pavadinimas"
+F 11 "-" H 8750 3450 60  0001 C CNN "Gamintojo Kodas"
+F 12 "-" H 8750 3350 60  0001 C CNN "Nuoroda"
+F 13 "SMD" H 9650 3550 60  0001 C CNN "Korpuso tipas"
+F 14 "-" H 8750 3300 60  0001 C CNN "Parametras"
+F 15 "-" H 8750 3250 60  0001 C CNN "Komentaras"
+	1    8250 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED D6
+U 1 1 5A79B9F9
+P 6700 3100
+F 0 "D6" V 6700 3250 50  0000 C CNN
+F 1 "2.6K" H 6700 3000 50  0001 C CNN
+F 2 "LEDs:LED_D3.0mm" H 6700 3100 50  0001 C CNN
+F 3 "" H 6700 3100 50  0001 C CNN
+	1    6700 3100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED D8
+U 1 1 5A79BAC9
+P 7750 3100
+F 0 "D8" V 7750 3250 50  0000 C CNN
+F 1 "1.9K" H 7750 3000 50  0001 C CNN
+F 2 "LEDs:LED_D3.0mm" H 7750 3100 50  0001 C CNN
+F 3 "" H 7750 3100 50  0001 C CNN
+	1    7750 3100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED D10
+U 1 1 5A79BB7E
+P 8800 3100
+F 0 "D10" V 8800 3250 50  0000 C CNN
+F 1 "1.2K" H 8800 3000 50  0001 C CNN
+F 2 "LEDs:LED_D3.0mm" H 8800 3100 50  0001 C CNN
+F 3 "" H 8800 3100 50  0001 C CNN
+	1    8800 3100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED D12
+U 1 1 5A79BC36
+P 9800 3100
+F 0 "D12" V 9800 3250 50  0000 C CNN
+F 1 "680R" H 9800 3000 50  0001 C CNN
+F 2 "LEDs:LED_D3.0mm" H 9800 3100 50  0001 C CNN
+F 3 "" H 9800 3100 50  0001 C CNN
+	1    9800 3100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R_xxx_0805_1% R18
+U 1 1 5A79CB1D
+P 9300 3550
+F 0 "R18" H 9200 3650 60  0000 C CNN
+F 1 "2.2k" H 9450 3650 60  0000 C CNN
+F 2 "resistors:R_0805" H 10150 3550 60  0001 C CNN
+F 3 "" H 7700 4050 60  0001 C CNN
+F 4 "ventcode" H 9300 3350 60  0001 C CNN "ventcode"
+F 5 "-" H 9350 3650 59  0001 C CNN "Nominalas"
+F 6 "0.001" H 10400 3450 60  0001 C CNN "Kaina"
+F 7 "0805" H 11000 3550 60  0001 C CNN "Korpusas"
+F 8 "1" H 10700 3450 60  0001 C CNN "Aukstis"
+F 9 "-" H 9800 3400 60  0001 C CNN "Marke"
+F 10 "Rezistorius" H 10000 3650 60  0001 C CNN "Pavadinimas"
+F 11 "-" H 9800 3450 60  0001 C CNN "Gamintojo Kodas"
+F 12 "-" H 9800 3350 60  0001 C CNN "Nuoroda"
+F 13 "SMD" H 10700 3550 60  0001 C CNN "Korpuso tipas"
+F 14 "-" H 9800 3300 60  0001 C CNN "Parametras"
+F 15 "-" H 9800 3250 60  0001 C CNN "Komentaras"
+	1    9300 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR014
+U 1 1 5A79D8F9
+P 10100 3500
+F 0 "#PWR014" H 10100 3350 50  0001 C CNN
+F 1 "VCC" H 10100 3650 50  0000 C CNN
+F 2 "" H 10100 3500 50  0001 C CNN
+F 3 "" H 10100 3500 50  0001 C CNN
+	1    10100 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR015
+U 1 1 5A79DD7F
+P 3050 3600
+F 0 "#PWR015" H 3050 3350 50  0001 C CNN
+F 1 "GND" H 3050 3450 50  0000 C CNN
+F 2 "" H 3050 3600 50  0001 C CNN
+F 3 "" H 3050 3600 50  0001 C CNN
+	1    3050 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR016
+U 1 1 5A79DEC3
+P 3050 2550
+F 0 "#PWR016" H 3050 2400 50  0001 C CNN
+F 1 "VCC" H 3050 2700 50  0000 C CNN
+F 2 "" H 3050 2550 50  0001 C CNN
+F 3 "" H 3050 2550 50  0001 C CNN
+	1    3050 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_xxx_0805_1% R2
+U 1 1 5A79E2B7
+P 2350 2600
+F 0 "R2" H 2250 2700 49  0000 C CNN
+F 1 "120R" H 2450 2700 49  0000 C CNN
+F 2 "resistors:R_1206" H 3200 2600 60  0001 C CNN
+F 3 "" H 750 3100 60  0001 C CNN
+F 4 "ventcode" H 2350 2400 60  0001 C CNN "ventcode"
+F 5 "-" H 2400 2700 59  0001 C CNN "Nominalas"
+F 6 "0.001" H 3450 2500 60  0001 C CNN "Kaina"
+F 7 "0805" H 4050 2600 60  0001 C CNN "Korpusas"
+F 8 "1" H 3750 2500 60  0001 C CNN "Aukstis"
+F 9 "-" H 2850 2450 60  0001 C CNN "Marke"
+F 10 "Rezistorius" H 3050 2700 60  0001 C CNN "Pavadinimas"
+F 11 "-" H 2850 2500 60  0001 C CNN "Gamintojo Kodas"
+F 12 "-" H 2850 2400 60  0001 C CNN "Nuoroda"
+F 13 "SMD" H 3750 2600 60  0001 C CNN "Korpuso tipas"
+F 14 "-" H 2850 2350 60  0001 C CNN "Parametras"
+F 15 "-" H 2850 2300 60  0001 C CNN "Komentaras"
+	1    2350 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_xxx_0805_1% R4
+U 1 1 5A79E8EA
+P 3350 2800
+F 0 "R4" V 3400 2650 49  0000 C CNN
+F 1 "9.1k" V 3300 2650 49  0000 C CNN
+F 2 "resistors:R_0805" H 4200 2800 60  0001 C CNN
+F 3 "" H 1750 3300 60  0001 C CNN
+F 4 "ventcode" H 3350 2600 60  0001 C CNN "ventcode"
+F 5 "-" H 3400 2900 59  0001 C CNN "Nominalas"
+F 6 "0.001" H 4450 2700 60  0001 C CNN "Kaina"
+F 7 "0805" H 5050 2800 60  0001 C CNN "Korpusas"
+F 8 "1" H 4750 2700 60  0001 C CNN "Aukstis"
+F 9 "-" H 3850 2650 60  0001 C CNN "Marke"
+F 10 "Rezistorius" H 4050 2900 60  0001 C CNN "Pavadinimas"
+F 11 "-" H 3850 2700 60  0001 C CNN "Gamintojo Kodas"
+F 12 "-" H 3850 2600 60  0001 C CNN "Nuoroda"
+F 13 "SMD" H 4750 2800 60  0001 C CNN "Korpuso tipas"
+F 14 "-" H 3850 2550 60  0001 C CNN "Parametras"
+F 15 "-" H 3850 2500 60  0001 C CNN "Komentaras"
+	1    3350 2800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R_xxx_0805_1% R5
+U 1 1 5A79F25D
+P 3350 3300
+F 0 "R5" V 3450 3150 49  0000 C CNN
+F 1 "3.0k" V 3350 3150 49  0000 C CNN
+F 2 "resistors:R_0805" H 4200 3300 60  0001 C CNN
+F 3 "" H 1750 3800 60  0001 C CNN
+F 4 "ventcode" H 3350 3100 60  0001 C CNN "ventcode"
+F 5 "-" H 3400 3400 59  0001 C CNN "Nominalas"
+F 6 "0.001" H 4450 3200 60  0001 C CNN "Kaina"
+F 7 "0805" H 5050 3300 60  0001 C CNN "Korpusas"
+F 8 "1" H 4750 3200 60  0001 C CNN "Aukstis"
+F 9 "-" H 3850 3150 60  0001 C CNN "Marke"
+F 10 "Rezistorius" H 4050 3400 60  0001 C CNN "Pavadinimas"
+F 11 "-" H 3850 3200 60  0001 C CNN "Gamintojo Kodas"
+F 12 "-" H 3850 3100 60  0001 C CNN "Nuoroda"
+F 13 "SMD" H 4750 3300 60  0001 C CNN "Korpuso tipas"
+F 14 "-" H 3850 3050 60  0001 C CNN "Parametras"
+F 15 "-" H 3850 3000 60  0001 C CNN "Komentaras"
+	1    3350 3300
+	0    -1   -1   0   
+$EndComp
+Text Notes 3150 2600 0    60   ~ 0
+10V
+$Comp
+L GND #PWR017
+U 1 1 5A7A48CF
+P 10100 4800
+F 0 "#PWR017" H 10100 4550 50  0001 C CNN
+F 1 "GND" H 10100 4650 50  0000 C CNN
+F 2 "" H 10100 4800 50  0001 C CNN
+F 3 "" H 10100 4800 50  0001 C CNN
+	1    10100 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_xxx_0805_1% R20
+U 1 1 5A7B1632
+P 10100 3900
+F 0 "R20" H 10100 4000 60  0000 C CNN
+F 1 "10k" H 10100 3800 60  0000 C CNN
+F 2 "resistors:R_0805" H 10950 3900 60  0001 C CNN
+F 3 "" H 8500 4400 60  0001 C CNN
+F 4 "ventcode" H 10100 3700 60  0001 C CNN "ventcode"
+F 5 "-" H 10150 4000 59  0001 C CNN "Nominalas"
+F 6 "0.001" H 11200 3800 60  0001 C CNN "Kaina"
+F 7 "0805" H 11800 3900 60  0001 C CNN "Korpusas"
+F 8 "1" H 11500 3800 60  0001 C CNN "Aukstis"
+F 9 "-" H 10600 3750 60  0001 C CNN "Marke"
+F 10 "Rezistorius" H 10800 4000 60  0001 C CNN "Pavadinimas"
+F 11 "-" H 10600 3800 60  0001 C CNN "Gamintojo Kodas"
+F 12 "-" H 10600 3700 60  0001 C CNN "Nuoroda"
+F 13 "SMD" H 11500 3900 60  0001 C CNN "Korpuso tipas"
+F 14 "-" H 10600 3650 60  0001 C CNN "Parametras"
+F 15 "-" H 10600 3600 60  0001 C CNN "Komentaras"
+	1    10100 3900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R_xxx_0805_1% R21
+U 1 1 5A7B1BC5
+P 10100 4600
+F 0 "R21" H 10100 4700 60  0000 C CNN
+F 1 "10k" H 10100 4500 60  0000 C CNN
+F 2 "resistors:R_0805" H 10950 4600 60  0001 C CNN
+F 3 "" H 8500 5100 60  0001 C CNN
+F 4 "ventcode" H 10100 4400 60  0001 C CNN "ventcode"
+F 5 "-" H 10150 4700 59  0001 C CNN "Nominalas"
+F 6 "0.001" H 11200 4500 60  0001 C CNN "Kaina"
+F 7 "0805" H 11800 4600 60  0001 C CNN "Korpusas"
+F 8 "1" H 11500 4500 60  0001 C CNN "Aukstis"
+F 9 "-" H 10600 4450 60  0001 C CNN "Marke"
+F 10 "Rezistorius" H 10800 4700 60  0001 C CNN "Pavadinimas"
+F 11 "-" H 10600 4500 60  0001 C CNN "Gamintojo Kodas"
+F 12 "-" H 10600 4400 60  0001 C CNN "Nuoroda"
+F 13 "SMD" H 11500 4600 60  0001 C CNN "Korpuso tipas"
+F 14 "-" H 10600 4350 60  0001 C CNN "Parametras"
+F 15 "-" H 10600 4300 60  0001 C CNN "Komentaras"
+	1    10100 4600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L C_100n_0805_X7R C3
+U 1 1 5A7B28D1
+P 9800 4600
+F 0 "C3" H 9700 4500 50  0000 L CNN
+F 1 "100n" V 9950 4450 50  0001 L CNN
+F 2 "capacitors:C_0805" H 9838 4450 50  0001 C CNN
+F 3 "" H 9825 4700 50  0001 C CNN
+F 4 "ZKN065" H 9925 4800 60  0001 C CNN "ventcode"
+F 5 "100n" H 10000 4600 60  0001 C CNN "Nominalas"
+F 6 "0.001" H 10125 5000 60  0001 C CNN "Kaina"
+F 7 "0805" H 10225 5100 60  0001 C CNN "Korpusas"
+F 8 "1" H 10325 5200 60  0001 C CNN "Aukstis"
+F 9 "X7R0805K" H 10425 5300 60  0001 C CNN "Marke"
+F 10 "Kondensatorius" H 10525 5400 60  0001 C CNN "Pavadinimas"
+F 11 "-" H 10625 5500 60  0001 C CNN "Gamintojo Kodas"
+F 12 "-" H 10725 5600 60  0001 C CNN "Nuoroda"
+F 13 "SMD" H 10800 4600 60  0001 C CNN "Korpuso tipas"
+F 14 "100n" H 10925 5800 60  0001 C CNN "Parametras"
+F 15 "-" H 11025 5900 60  0001 C CNN "Komentaras"
+	1    9800 4600
+	-1   0    0    1   
+$EndComp
+$Comp
+L GND #PWR018
+U 1 1 5A7B2E6C
+P 9800 4800
+F 0 "#PWR018" H 9800 4550 50  0001 C CNN
+F 1 "GND" H 9800 4650 50  0000 C CNN
+F 2 "" H 9800 4800 50  0001 C CNN
+F 3 "" H 9800 4800 50  0001 C CNN
+	1    9800 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_1k_0805_1% R11
+U 1 1 5A7B6BE9
+P 5050 4600
+F 0 "R11" H 4950 4700 60  0000 C CNN
+F 1 "1k" H 5150 4700 60  0000 C CNN
+F 2 "resistors:R_0805" H 5900 4500 60  0001 C CNN
+F 3 "" H 3450 5100 60  0001 C CNN
+F 4 "ZELRS061" H 5050 4400 60  0001 C CNN "ventcode"
+F 5 "1k" H 5050 4500 60  0001 C CNN "Nominalas"
+F 6 "0.001" H 6250 4400 60  0001 C CNN "Kaina"
+F 7 "0805" H 6550 4500 60  0001 C CNN "Korpusas"
+F 8 "1" H 6000 4400 60  0001 C CNN "Aukstis"
+F 9 "RK73" H 6600 4400 60  0001 C CNN "Marke"
+F 10 "Rezistorius" H 5800 4600 60  0001 C CNN "Pavadinimas"
+F 11 "-" H 5550 4400 60  0001 C CNN "Gamintojo Kodas"
+F 12 "-" H 5650 4400 60  0001 C CNN "Nuoroda"
+F 13 "SMD" H 6850 4500 60  0001 C CNN "Korpuso tipas"
+	1    5050 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_100n_0805_X7R C2
+U 1 1 5A7B7AFF
+P 4700 4850
+F 0 "C2" H 4850 4900 50  0000 L CNN
+F 1 "100n" H 4850 4800 50  0000 L CNN
+F 2 "capacitors:C_0805" H 4738 4700 50  0001 C CNN
+F 3 "" H 4725 4950 50  0001 C CNN
+F 4 "ZKN065" H 4825 5050 60  0001 C CNN "ventcode"
+F 5 "100n" H 4900 4850 60  0001 C CNN "Nominalas"
+F 6 "0.001" H 5025 5250 60  0001 C CNN "Kaina"
+F 7 "0805" H 5125 5350 60  0001 C CNN "Korpusas"
+F 8 "1" H 5225 5450 60  0001 C CNN "Aukstis"
+F 9 "X7R0805K" H 5325 5550 60  0001 C CNN "Marke"
+F 10 "Kondensatorius" H 5425 5650 60  0001 C CNN "Pavadinimas"
+F 11 "-" H 5525 5750 60  0001 C CNN "Gamintojo Kodas"
+F 12 "-" H 5625 5850 60  0001 C CNN "Nuoroda"
+F 13 "SMD" H 5700 4850 60  0001 C CNN "Korpuso tipas"
+F 14 "100n" H 5825 6050 60  0001 C CNN "Parametras"
+F 15 "-" H 5925 6150 60  0001 C CNN "Komentaras"
+	1    4700 4850
+	1    0    0    -1  
+$EndComp
+Text Label 1300 2600 0    60   ~ 0
+12VDC
+$Comp
+L C_100n_0805_X7R C4
+U 1 1 5A7C65CD
+P 10400 4200
+F 0 "C4" H 10150 4150 50  0000 L CNN
+F 1 "100n" H 10050 4250 50  0000 L CNN
+F 2 "capacitors:C_0805" H 10438 4050 50  0001 C CNN
+F 3 "" H 10425 4300 50  0001 C CNN
+F 4 "ZKN065" H 10525 4400 60  0001 C CNN "ventcode"
+F 5 "100n" H 10600 4200 60  0001 C CNN "Nominalas"
+F 6 "0.001" H 10725 4600 60  0001 C CNN "Kaina"
+F 7 "0805" H 10825 4700 60  0001 C CNN "Korpusas"
+F 8 "1" H 10925 4800 60  0001 C CNN "Aukstis"
+F 9 "X7R0805K" H 11025 4900 60  0001 C CNN "Marke"
+F 10 "Kondensatorius" H 11125 5000 60  0001 C CNN "Pavadinimas"
+F 11 "-" H 11225 5100 60  0001 C CNN "Gamintojo Kodas"
+F 12 "-" H 11325 5200 60  0001 C CNN "Nuoroda"
+F 13 "SMD" H 11400 4200 60  0001 C CNN "Korpuso tipas"
+F 14 "100n" H 11525 5400 60  0001 C CNN "Parametras"
+F 15 "-" H 11625 5500 60  0001 C CNN "Komentaras"
+	1    10400 4200
+	-1   0    0    1   
+$EndComp
+$Comp
+L GND #PWR019
+U 1 1 5A7C6679
+P 10400 4800
+F 0 "#PWR019" H 10400 4550 50  0001 C CNN
+F 1 "GND" H 10400 4650 50  0000 C CNN
+F 2 "" H 10400 4800 50  0001 C CNN
+F 3 "" H 10400 4800 50  0001 C CNN
+	1    10400 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L OP_LM239N U2
+U 1 1 5A798349
+P 6250 4200
+F 0 "U2" H 6250 4450 50  0000 L CNN
+F 1 "LM239N" H 6250 4350 50  0000 L CNN
+F 2 "Housings_DIP:DIP-14_W7.62mm" H 7450 4150 50  0001 C CNN
+F 3 "" H 8800 3950 50  0001 C CNN
+F 4 "-" H 6250 4000 47  0001 C CNN "ventcode"
+F 5 "LM239N" H 8000 4250 47  0001 C CNN "Nominalas"
+F 6 "0" H 7950 4050 47  0001 C CNN "Kaina"
+F 7 "DIP-16" H 8050 4150 47  0001 C CNN "Korpusas"
+F 8 "6" H 7800 4050 47  0001 C CNN "Aukstis"
+F 9 "-" H 7150 4050 47  0001 C CNN "Marke"
+F 10 "Mikroschema" H 7250 4250 47  0001 C CNN "Pavadinimas"
+F 11 "LM239N" H 7700 4250 47  0001 C CNN "Gamintojo Kodas"
+F 12 "-" H 7250 4050 47  0001 C CNN "Nuoroda"
+F 13 "DIP" H 7650 4050 47  0001 C CNN "Korpuso tipas"
+F 14 "-" H 7350 4050 47  0001 C CNN "Parametras"
+F 15 "-" H 7450 4050 47  0001 C CNN "Komentaras"
+	1    6250 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L OP_LM239N U2
+U 2 1 5A798724
+P 7300 4200
+F 0 "U2" H 7300 4450 50  0000 L CNN
+F 1 "LM239N" H 7300 4350 50  0000 L CNN
+F 2 "Housings_DIP:DIP-14_W7.62mm" H 8500 4150 50  0001 C CNN
+F 3 "" H 9850 3950 50  0001 C CNN
+F 4 "-" H 7300 4000 47  0001 C CNN "ventcode"
+F 5 "LM239N" H 9050 4250 47  0001 C CNN "Nominalas"
+F 6 "0" H 9000 4050 47  0001 C CNN "Kaina"
+F 7 "DIP-16" H 9100 4150 47  0001 C CNN "Korpusas"
+F 8 "6" H 8850 4050 47  0001 C CNN "Aukstis"
+F 9 "-" H 8200 4050 47  0001 C CNN "Marke"
+F 10 "Mikroschema" H 8300 4250 47  0001 C CNN "Pavadinimas"
+F 11 "LM239N" H 8750 4250 47  0001 C CNN "Gamintojo Kodas"
+F 12 "-" H 8300 4050 47  0001 C CNN "Nuoroda"
+F 13 "DIP" H 8700 4050 47  0001 C CNN "Korpuso tipas"
+F 14 "-" H 8400 4050 47  0001 C CNN "Parametras"
+F 15 "-" H 8500 4050 47  0001 C CNN "Komentaras"
+	2    7300 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L OP_LM239N U2
+U 3 1 5A79891E
+P 8350 4200
+F 0 "U2" H 8350 4450 50  0000 L CNN
+F 1 "LM239N" H 8350 4350 50  0000 L CNN
+F 2 "Housings_DIP:DIP-14_W7.62mm" H 9550 4150 50  0001 C CNN
+F 3 "" H 10900 3950 50  0001 C CNN
+F 4 "-" H 8350 4000 47  0001 C CNN "ventcode"
+F 5 "LM239N" H 10100 4250 47  0001 C CNN "Nominalas"
+F 6 "0" H 10050 4050 47  0001 C CNN "Kaina"
+F 7 "DIP-16" H 10150 4150 47  0001 C CNN "Korpusas"
+F 8 "6" H 9900 4050 47  0001 C CNN "Aukstis"
+F 9 "-" H 9250 4050 47  0001 C CNN "Marke"
+F 10 "Mikroschema" H 9350 4250 47  0001 C CNN "Pavadinimas"
+F 11 "LM239N" H 9800 4250 47  0001 C CNN "Gamintojo Kodas"
+F 12 "-" H 9350 4050 47  0001 C CNN "Nuoroda"
+F 13 "DIP" H 9750 4050 47  0001 C CNN "Korpuso tipas"
+F 14 "-" H 9450 4050 47  0001 C CNN "Parametras"
+F 15 "-" H 9550 4050 47  0001 C CNN "Komentaras"
+	3    8350 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L OP_LM239N U2
+U 4 1 5A798C92
+P 9400 4200
+F 0 "U2" H 9400 4450 50  0000 L CNN
+F 1 "LM239N" H 9400 4350 50  0000 L CNN
+F 2 "Housings_DIP:DIP-14_W7.62mm" H 10600 4150 50  0001 C CNN
+F 3 "" H 11950 3950 50  0001 C CNN
+F 4 "-" H 9400 4000 47  0001 C CNN "ventcode"
+F 5 "LM239N" H 11150 4250 47  0001 C CNN "Nominalas"
+F 6 "0" H 11100 4050 47  0001 C CNN "Kaina"
+F 7 "DIP-16" H 11200 4150 47  0001 C CNN "Korpusas"
+F 8 "6" H 10950 4050 47  0001 C CNN "Aukstis"
+F 9 "-" H 10300 4050 47  0001 C CNN "Marke"
+F 10 "Mikroschema" H 10400 4250 47  0001 C CNN "Pavadinimas"
+F 11 "LM239N" H 10850 4250 47  0001 C CNN "Gamintojo Kodas"
+F 12 "-" H 10400 4050 47  0001 C CNN "Nuoroda"
+F 13 "DIP" H 10800 4050 47  0001 C CNN "Korpuso tipas"
+F 14 "-" H 10500 4050 47  0001 C CNN "Parametras"
+F 15 "-" H 10600 4050 47  0001 C CNN "Komentaras"
+	4    9400 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L D_BAS85 D7
+U 1 1 5A79E654
+P 7200 3100
+F 0 "D7" V 7150 3300 59  0000 C CNN
+F 1 "BAS85" V 7050 3300 60  0000 C CNN
+F 2 "disc:D_MiniMELF" H 7750 3100 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85510/bas85.pdf" H 8350 3100 50  0001 C CNN
+F 4 "ZELD004" H 7200 2900 60  0001 C CNN "ventcode"
+F 5 "-" H 7650 3100 60  0001 C CNN "Nominalas"
+F 6 "0.01" H 7550 3100 60  0001 C CNN "Kaina"
+F 7 "mini Melf, (SOD 80C)" H 8050 3100 60  0001 C CNN "Korpusas"
+F 8 "1.5" H 7500 3100 60  0001 C CNN "Aukstis"
+F 9 "BAS85" H 7200 3000 60  0001 C CNN "Marke"
+F 10 "Diodas" H 7750 3100 60  0001 C CNN "Pavadinimas"
+F 11 "BAS85" H 7600 3100 60  0001 C CNN "Gamintojo Kodas"
+F 12 "http://www.futureelectronics.com/en/Search.aspx?dsNav=Ntk:PartNumberSearch%7cbas85%7c1%7c,Ny:True,Nea:True" H 10050 3100 60  0001 C CNN "Nuoroda"
+F 13 "SMD" H 8250 3100 60  0001 C CNN "Korpuso tipas"
+F 14 "BAS85 Series 30 V 200 mA Small Signal Schottky" H 8350 3100 47  0001 C CNN "Parametras"
+F 15 "-" H 7800 3100 60  0001 C CNN "Komentaras"
+	1    7200 3100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L D_BAS85 D9
+U 1 1 5A79F714
+P 8250 3100
+F 0 "D9" V 8200 3300 59  0000 C CNN
+F 1 "BAS85" V 8100 3300 60  0000 C CNN
+F 2 "disc:D_MiniMELF" H 8800 3100 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85510/bas85.pdf" H 9400 3100 50  0001 C CNN
+F 4 "ZELD004" H 8250 2900 60  0001 C CNN "ventcode"
+F 5 "-" H 8700 3100 60  0001 C CNN "Nominalas"
+F 6 "0.01" H 8600 3100 60  0001 C CNN "Kaina"
+F 7 "mini Melf, (SOD 80C)" H 9100 3100 60  0001 C CNN "Korpusas"
+F 8 "1.5" H 8550 3100 60  0001 C CNN "Aukstis"
+F 9 "BAS85" H 8250 3000 60  0001 C CNN "Marke"
+F 10 "Diodas" H 8800 3100 60  0001 C CNN "Pavadinimas"
+F 11 "BAS85" H 8650 3100 60  0001 C CNN "Gamintojo Kodas"
+F 12 "http://www.futureelectronics.com/en/Search.aspx?dsNav=Ntk:PartNumberSearch%7cbas85%7c1%7c,Ny:True,Nea:True" H 11100 3100 60  0001 C CNN "Nuoroda"
+F 13 "SMD" H 9300 3100 60  0001 C CNN "Korpuso tipas"
+F 14 "BAS85 Series 30 V 200 mA Small Signal Schottky" H 9400 3100 47  0001 C CNN "Parametras"
+F 15 "-" H 8850 3100 60  0001 C CNN "Komentaras"
+	1    8250 3100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L D_BAS85 D11
+U 1 1 5A79FC7F
+P 9300 3100
+F 0 "D11" V 9250 3300 59  0000 C CNN
+F 1 "BAS85" V 9150 3300 60  0000 C CNN
+F 2 "disc:D_MiniMELF" H 9850 3100 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85510/bas85.pdf" H 10450 3100 50  0001 C CNN
+F 4 "ZELD004" H 9300 2900 60  0001 C CNN "ventcode"
+F 5 "-" H 9750 3100 60  0001 C CNN "Nominalas"
+F 6 "0.01" H 9650 3100 60  0001 C CNN "Kaina"
+F 7 "mini Melf, (SOD 80C)" H 10150 3100 60  0001 C CNN "Korpusas"
+F 8 "1.5" H 9600 3100 60  0001 C CNN "Aukstis"
+F 9 "BAS85" H 9300 3000 60  0001 C CNN "Marke"
+F 10 "Diodas" H 9850 3100 60  0001 C CNN "Pavadinimas"
+F 11 "BAS85" H 9700 3100 60  0001 C CNN "Gamintojo Kodas"
+F 12 "http://www.futureelectronics.com/en/Search.aspx?dsNav=Ntk:PartNumberSearch%7cbas85%7c1%7c,Ny:True,Nea:True" H 12150 3100 60  0001 C CNN "Nuoroda"
+F 13 "SMD" H 10350 3100 60  0001 C CNN "Korpuso tipas"
+F 14 "BAS85 Series 30 V 200 mA Small Signal Schottky" H 10450 3100 47  0001 C CNN "Parametras"
+F 15 "-" H 9900 3100 60  0001 C CNN "Komentaras"
+	1    9300 3100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CP_100uFx16V C1
+U 1 1 5A90144E
+P 2700 3150
+F 0 "C1" H 2450 3400 50  0000 L CNN
+F 1 "100uFx16V" H 2200 3300 50  0000 L CNN
+F 2 "capacitors:CP_Radial_D6.3mm_P2.50mm" H 3550 3400 50  0001 C CNN
+F 3 "" H 2725 3250 50  0001 C CNN
+F 4 "ZKN008" H 2750 2900 60  0001 C CNN "ventcode"
+F 5 "0.06" H 3450 3200 60  0001 C CNN "Kaina"
+F 6 "Kondensatorius elektrolitinis" H 3550 3500 60  0001 C CNN "Pavadinimas"
+F 7 "100uFx16V" H 3000 3050 60  0001 C CNN "Nominalas"
+F 8 "DIP" H 3650 3300 60  0001 C CNN "Korpuso tipas"
+	1    2700 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR020
+U 1 1 5A902079
+P 2700 3600
+F 0 "#PWR020" H 2700 3350 50  0001 C CNN
+F 1 "GND" H 2700 3450 50  0000 C CNN
+F 2 "" H 2700 3600 50  0001 C CNN
+F 3 "" H 2700 3600 50  0001 C CNN
+	1    2700 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4400 4800 3200 4800
+Wire Wire Line
+	3800 3600 3800 4300
+Wire Wire Line
+	3300 4200 3200 4200
+Wire Wire Line
+	3300 4000 3200 4000
+Wire Wire Line
+	3200 4100 4850 4100
+Connection ~ 2700 2600
+Wire Wire Line
+	2700 2600 2700 3000
+Wire Wire Line
+	2700 3300 2700 3600
+Wire Wire Line
+	2300 5350 3000 5350
+Wire Wire Line
+	9300 2800 9300 2950
+Wire Wire Line
+	9300 3250 9300 3350
+Wire Wire Line
+	8250 2800 8250 2950
+Wire Wire Line
+	8250 3350 8250 3250
+Wire Wire Line
+	7200 2800 7200 2950
+Connection ~ 9800 3350
+Wire Wire Line
+	9300 3350 9800 3350
+Connection ~ 8800 2800
+Wire Wire Line
+	8800 2800 9300 2800
+Connection ~ 8800 3350
+Wire Wire Line
+	8250 3350 8800 3350
+Connection ~ 7750 2800
+Wire Wire Line
+	7750 2800 8250 2800
+Connection ~ 7750 3350
+Wire Wire Line
+	7200 3350 7750 3350
+Wire Wire Line
+	7200 3250 7200 3350
+Connection ~ 6700 2800
+Wire Wire Line
+	6700 2800 7200 2800
+Wire Wire Line
+	10400 3550 10400 4050
+Wire Wire Line
+	10400 4800 10400 4350
+Connection ~ 4400 2300
+Connection ~ 4200 2300
+Connection ~ 4000 2300
+Connection ~ 3800 2300
+Connection ~ 2100 2600
+Connection ~ 10100 3550
+Wire Wire Line
+	10100 3500 10100 3750
+Wire Wire Line
+	9450 3550 10400 3550
+Connection ~ 9800 4350
+Wire Wire Line
+	9800 4450 9800 4350
+Wire Wire Line
+	9800 4800 9800 4750
+Connection ~ 10100 4350
+Wire Wire Line
+	9550 4850 9550 4350
+Wire Wire Line
+	9550 4350 10100 4350
+Wire Wire Line
+	10100 4050 10100 4450
+Wire Wire Line
+	2000 2600 2200 2600
+Wire Wire Line
+	10100 4800 10100 4750
+Connection ~ 9000 4850
+Wire Wire Line
+	5850 4300 5850 4850
+Wire Wire Line
+	5850 4850 9550 4850
+Connection ~ 5850 4100
+Connection ~ 9000 3550
+Connection ~ 3350 3050
+Connection ~ 3050 3550
+Wire Wire Line
+	3350 3550 3050 3550
+Wire Wire Line
+	3350 3450 3350 3550
+Wire Wire Line
+	3350 2950 3350 3150
+Wire Wire Line
+	3250 3050 3350 3050
+Wire Wire Line
+	3350 2600 3350 2650
+Connection ~ 3050 2600
+Wire Wire Line
+	2500 2600 3350 2600
+Wire Wire Line
+	3050 2550 3050 2850
+Wire Wire Line
+	3050 3250 3050 3600
+Connection ~ 6700 2300
+Connection ~ 7750 2300
+Wire Wire Line
+	7750 2300 7750 2400
+Connection ~ 8800 2300
+Wire Wire Line
+	8800 2300 8800 2400
+Wire Wire Line
+	9800 2300 9800 2400
+Wire Wire Line
+	6700 2300 6700 2400
+Wire Wire Line
+	2100 2300 9800 2300
+Wire Wire Line
+	9800 2700 9800 2950
+Wire Wire Line
+	8800 2700 8800 2950
+Wire Wire Line
+	7750 2700 7750 2950
+Wire Wire Line
+	6700 2700 6700 2950
+Wire Wire Line
+	9800 3250 9800 4200
+Wire Wire Line
+	9800 4200 9700 4200
+Wire Wire Line
+	8800 3250 8800 4200
+Wire Wire Line
+	8800 4200 8650 4200
+Wire Wire Line
+	7750 3250 7750 4200
+Wire Wire Line
+	7750 4200 7600 4200
+Wire Wire Line
+	6700 4200 6700 3250
+Wire Wire Line
+	6550 4200 6700 4200
+Wire Wire Line
+	9000 4100 9100 4100
+Wire Wire Line
+	9000 3550 9000 4100
+Wire Wire Line
+	8400 3550 9150 3550
+Connection ~ 7950 3550
+Wire Wire Line
+	7950 4100 8050 4100
+Wire Wire Line
+	7950 3550 7950 4100
+Wire Wire Line
+	7350 3550 8100 3550
+Connection ~ 6900 3550
+Wire Wire Line
+	6900 4100 7000 4100
+Wire Wire Line
+	6900 3550 6900 4100
+Wire Wire Line
+	6450 3550 7050 3550
+Wire Wire Line
+	5850 3550 6150 3550
+Wire Wire Line
+	5850 4100 5850 3550
+Wire Wire Line
+	5150 4100 5950 4100
+Connection ~ 6900 4850
+Wire Wire Line
+	6900 4300 6900 4850
+Wire Wire Line
+	7000 4300 6900 4300
+Connection ~ 7950 4850
+Wire Wire Line
+	7950 4300 7950 4850
+Wire Wire Line
+	8050 4300 7950 4300
+Wire Wire Line
+	9000 4300 9100 4300
+Wire Wire Line
+	9000 4850 9000 4300
+Wire Wire Line
+	5950 4300 5850 4300
+Wire Wire Line
+	9300 3850 9300 3900
+Wire Wire Line
+	8250 3850 8250 3900
+Wire Wire Line
+	7200 3850 7200 3900
+Wire Wire Line
+	6150 3850 6150 3900
+Wire Wire Line
+	6150 4550 6150 4500
+Wire Wire Line
+	7200 4550 7200 4500
+Wire Wire Line
+	8250 4550 8250 4500
+Wire Wire Line
+	9300 4550 9300 4500
+Wire Wire Line
+	4000 2300 4000 2450
+Wire Wire Line
+	4200 2300 4200 2450
+Wire Wire Line
+	4400 2300 4400 2450
+Wire Wire Line
+	4400 2750 4400 2900
+Wire Wire Line
+	4200 2750 4200 3300
+Wire Wire Line
+	4000 2750 4000 2900
+Wire Wire Line
+	3800 2300 3800 2450
+Wire Wire Line
+	3800 2750 3800 3300
+Connection ~ 4700 4600
+Wire Wire Line
+	4700 4700 4700 4600
+Wire Wire Line
+	4700 5050 4700 5000
+Wire Wire Line
+	3200 4600 4900 4600
+Wire Wire Line
+	5200 4600 5300 4600
+Wire Wire Line
+	5450 4750 5450 5050
+Wire Wire Line
+	3300 5350 3400 5350
+Wire Wire Line
+	4000 3200 4000 4500
+Wire Wire Line
+	4200 3600 4200 4700
+Text Label 2450 5350 0    60   ~ 0
+PROBE
+$Comp
+L Conn_01x01 J1
+U 1 1 5A906BF1
+P 2100 5350
+F 0 "J1" H 2100 5250 50  0000 C CNN
+F 1 "PROBE" H 2100 5450 50  0000 C CNN
+F 2 "Wire_Pads:SolderWirePad_2x_1mmDrill" H 2100 5350 50  0001 C CNN
+F 3 "" H 2100 5350 50  0001 C CNN
+	1    2100 5350
+	-1   0    0    1   
+$EndComp
+$Comp
+L VCC #PWR021
+U 1 1 5A9096B0
+P 5450 4350
+F 0 "#PWR021" H 5450 4200 50  0001 C CNN
+F 1 "VCC" H 5450 4500 50  0000 C CNN
+F 2 "" H 5450 4350 50  0001 C CNN
+F 3 "" H 5450 4350 50  0001 C CNN
+	1    5450 4350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5450 4350 5450 4450
+Wire Wire Line
+	4400 3200 4400 4800
+Wire Wire Line
+	3800 4300 3200 4300
+Wire Wire Line
+	4000 4500 3200 4500
+Wire Wire Line
+	4200 4700 3200 4700
+$Comp
+L RJ45_LEDS J2
+U 1 1 5A90EA9F
+P 2700 4400
+F 0 "J2" V 2200 4650 50  0000 C CNN
+F 1 "RJ45_LEDS" H 2700 4800 50  0000 C CNN
+F 2 "Connectors:RJHSE538X" H 2700 4350 50  0001 C CNN
+F 3 "" H 2700 4350 50  0001 C CNN
+	1    2700 4400
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	2200 4700 2100 4700
+Wire Wire Line
+	2100 4700 2100 4100
+Wire Wire Line
+	2100 4100 2200 4100
+Wire Wire Line
+	2200 4000 2100 4000
+Wire Wire Line
+	2100 4000 2100 3300
+$Comp
+L GND #PWR022
+U 1 1 5A9113C3
+P 2100 4900
+F 0 "#PWR022" H 2100 4650 50  0001 C CNN
+F 1 "GND" H 2100 4750 50  0000 C CNN
+F 2 "" H 2100 4900 50  0001 C CNN
+F 3 "" H 2100 4900 50  0001 C CNN
+	1    2100 4900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2200 4800 2100 4800
+Wire Wire Line
+	2100 4800 2100 4900
+Wire Wire Line
+	2100 2300 2100 3000
+$Comp
+L D_BAS85 D1
+U 1 1 5A927E31
+P 1850 2600
+F 0 "D1" H 2000 2500 59  0000 C CNN
+F 1 "BAS85" H 1750 2500 60  0000 C CNN
+F 2 "disc:D_MiniMELF" H 2400 2600 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85510/bas85.pdf" H 3000 2600 50  0001 C CNN
+F 4 "ZELD004" H 1850 2400 60  0001 C CNN "ventcode"
+F 5 "-" H 2300 2600 60  0001 C CNN "Nominalas"
+F 6 "0.01" H 2200 2600 60  0001 C CNN "Kaina"
+F 7 "mini Melf, (SOD 80C)" H 2700 2600 60  0001 C CNN "Korpusas"
+F 8 "1.5" H 2150 2600 60  0001 C CNN "Aukstis"
+F 9 "BAS85" H 1850 2500 60  0001 C CNN "Marke"
+F 10 "Diodas" H 2400 2600 60  0001 C CNN "Pavadinimas"
+F 11 "BAS85" H 2250 2600 60  0001 C CNN "Gamintojo Kodas"
+F 12 "http://www.futureelectronics.com/en/Search.aspx?dsNav=Ntk:PartNumberSearch%7cbas85%7c1%7c,Ny:True,Nea:True" H 4700 2600 60  0001 C CNN "Nuoroda"
+F 13 "SMD" H 2900 2600 60  0001 C CNN "Korpuso tipas"
+F 14 "BAS85 Series 30 V 200 mA Small Signal Schottky" H 3000 2600 47  0001 C CNN "Parametras"
+F 15 "-" H 2450 2600 60  0001 C CNN "Komentaras"
+	1    1850 2600
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1700 2600 1300 2600
+$Comp
+L R_1k_0805_1% R13
+U 1 1 5A929D31
+P 6700 2550
+F 0 "R13" V 6750 2400 60  0000 C CNN
+F 1 "1k" V 6650 2400 60  0000 C CNN
+F 2 "resistors:R_0805" H 7550 2450 60  0001 C CNN
+F 3 "" H 5100 3050 60  0001 C CNN
+F 4 "ZELRS061" H 6700 2350 60  0001 C CNN "ventcode"
+F 5 "1k" H 6700 2450 60  0001 C CNN "Nominalas"
+F 6 "0.001" H 7900 2350 60  0001 C CNN "Kaina"
+F 7 "0805" H 8200 2450 60  0001 C CNN "Korpusas"
+F 8 "1" H 7650 2350 60  0001 C CNN "Aukstis"
+F 9 "RK73" H 8250 2350 60  0001 C CNN "Marke"
+F 10 "Rezistorius" H 7450 2550 60  0001 C CNN "Pavadinimas"
+F 11 "-" H 7200 2350 60  0001 C CNN "Gamintojo Kodas"
+F 12 "-" H 7300 2350 60  0001 C CNN "Nuoroda"
+F 13 "SMD" H 8500 2450 60  0001 C CNN "Korpuso tipas"
+	1    6700 2550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R_1k_0805_1% R15
+U 1 1 5A92B14A
+P 7750 2550
+F 0 "R15" V 7800 2400 60  0000 C CNN
+F 1 "1k" V 7700 2400 60  0000 C CNN
+F 2 "resistors:R_0805" H 8600 2450 60  0001 C CNN
+F 3 "" H 6150 3050 60  0001 C CNN
+F 4 "ZELRS061" H 7750 2350 60  0001 C CNN "ventcode"
+F 5 "1k" H 7750 2450 60  0001 C CNN "Nominalas"
+F 6 "0.001" H 8950 2350 60  0001 C CNN "Kaina"
+F 7 "0805" H 9250 2450 60  0001 C CNN "Korpusas"
+F 8 "1" H 8700 2350 60  0001 C CNN "Aukstis"
+F 9 "RK73" H 9300 2350 60  0001 C CNN "Marke"
+F 10 "Rezistorius" H 8500 2550 60  0001 C CNN "Pavadinimas"
+F 11 "-" H 8250 2350 60  0001 C CNN "Gamintojo Kodas"
+F 12 "-" H 8350 2350 60  0001 C CNN "Nuoroda"
+F 13 "SMD" H 9550 2450 60  0001 C CNN "Korpuso tipas"
+	1    7750 2550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R_1k_0805_1% R17
+U 1 1 5A92B594
+P 8800 2550
+F 0 "R17" V 8850 2400 60  0000 C CNN
+F 1 "1k" V 8750 2400 60  0000 C CNN
+F 2 "resistors:R_0805" H 9650 2450 60  0001 C CNN
+F 3 "" H 7200 3050 60  0001 C CNN
+F 4 "ZELRS061" H 8800 2350 60  0001 C CNN "ventcode"
+F 5 "1k" H 8800 2450 60  0001 C CNN "Nominalas"
+F 6 "0.001" H 10000 2350 60  0001 C CNN "Kaina"
+F 7 "0805" H 10300 2450 60  0001 C CNN "Korpusas"
+F 8 "1" H 9750 2350 60  0001 C CNN "Aukstis"
+F 9 "RK73" H 10350 2350 60  0001 C CNN "Marke"
+F 10 "Rezistorius" H 9550 2550 60  0001 C CNN "Pavadinimas"
+F 11 "-" H 9300 2350 60  0001 C CNN "Gamintojo Kodas"
+F 12 "-" H 9400 2350 60  0001 C CNN "Nuoroda"
+F 13 "SMD" H 10600 2450 60  0001 C CNN "Korpuso tipas"
+	1    8800 2550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R_1k_0805_1% R19
+U 1 1 5A92B7BC
+P 9800 2550
+F 0 "R19" V 9850 2400 60  0000 C CNN
+F 1 "1k" V 9750 2400 60  0000 C CNN
+F 2 "resistors:R_0805" H 10650 2450 60  0001 C CNN
+F 3 "" H 8200 3050 60  0001 C CNN
+F 4 "ZELRS061" H 9800 2350 60  0001 C CNN "ventcode"
+F 5 "1k" H 9800 2450 60  0001 C CNN "Nominalas"
+F 6 "0.001" H 11000 2350 60  0001 C CNN "Kaina"
+F 7 "0805" H 11300 2450 60  0001 C CNN "Korpusas"
+F 8 "1" H 10750 2350 60  0001 C CNN "Aukstis"
+F 9 "RK73" H 11350 2350 60  0001 C CNN "Marke"
+F 10 "Rezistorius" H 10550 2550 60  0001 C CNN "Pavadinimas"
+F 11 "-" H 10300 2350 60  0001 C CNN "Gamintojo Kodas"
+F 12 "-" H 10400 2350 60  0001 C CNN "Nuoroda"
+F 13 "SMD" H 11600 2450 60  0001 C CNN "Korpuso tipas"
+	1    9800 2550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R_xxx_0805_1% R10
+U 1 1 5A92C9CA
+P 5000 4100
+F 0 "R10" H 4900 4200 60  0000 C CNN
+F 1 "100" H 5150 4200 60  0000 C CNN
+F 2 "resistors:R_0805" H 5850 4100 60  0001 C CNN
+F 3 "" H 3400 4600 60  0001 C CNN
+F 4 "ventcode" H 5000 3900 60  0001 C CNN "ventcode"
+F 5 "-" H 5050 4200 59  0001 C CNN "Nominalas"
+F 6 "0.001" H 6100 4000 60  0001 C CNN "Kaina"
+F 7 "0805" H 6700 4100 60  0001 C CNN "Korpusas"
+F 8 "1" H 6400 4000 60  0001 C CNN "Aukstis"
+F 9 "-" H 5500 3950 60  0001 C CNN "Marke"
+F 10 "Rezistorius" H 5700 4200 60  0001 C CNN "Pavadinimas"
+F 11 "-" H 5500 4000 60  0001 C CNN "Gamintojo Kodas"
+F 12 "-" H 5500 3900 60  0001 C CNN "Nuoroda"
+F 13 "SMD" H 6400 4100 60  0001 C CNN "Korpuso tipas"
+F 14 "-" H 5500 3850 60  0001 C CNN "Parametras"
+F 15 "-" H 5500 3800 60  0001 C CNN "Komentaras"
+	1    5000 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_1k_0805_1% R1
+U 1 1 5A952D2C
+P 2100 3150
+F 0 "R1" H 2000 3250 60  0000 C CNN
+F 1 "1k" H 2150 3250 60  0000 C CNN
+F 2 "resistors:R_0805" H 2950 3050 60  0001 C CNN
+F 3 "" H 500 3650 60  0001 C CNN
+F 4 "ZELRS061" H 2100 2950 60  0001 C CNN "ventcode"
+F 5 "1k" H 2100 3050 60  0001 C CNN "Nominalas"
+F 6 "0.001" H 3300 2950 60  0001 C CNN "Kaina"
+F 7 "0805" H 3600 3050 60  0001 C CNN "Korpusas"
+F 8 "1" H 3050 2950 60  0001 C CNN "Aukstis"
+F 9 "RK73" H 3650 2950 60  0001 C CNN "Marke"
+F 10 "Rezistorius" H 2850 3150 60  0001 C CNN "Pavadinimas"
+F 11 "-" H 2600 2950 60  0001 C CNN "Gamintojo Kodas"
+F 12 "-" H 2700 2950 60  0001 C CNN "Nuoroda"
+F 13 "SMD" H 3900 3050 60  0001 C CNN "Korpuso tipas"
+	1    2100 3150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R_1k_0805_1% R3
+U 1 1 5A9568EF
+P 3150 5350
+F 0 "R3" H 3050 5450 60  0000 C CNN
+F 1 "1k" H 3200 5450 60  0000 C CNN
+F 2 "resistors:R_0805" H 4000 5250 60  0001 C CNN
+F 3 "" H 1550 5850 60  0001 C CNN
+F 4 "ZELRS061" H 3150 5150 60  0001 C CNN "ventcode"
+F 5 "1k" H 3150 5250 60  0001 C CNN "Nominalas"
+F 6 "0.001" H 4350 5150 60  0001 C CNN "Kaina"
+F 7 "0805" H 4650 5250 60  0001 C CNN "Korpusas"
+F 8 "1" H 4100 5150 60  0001 C CNN "Aukstis"
+F 9 "RK73" H 4700 5150 60  0001 C CNN "Marke"
+F 10 "Rezistorius" H 3900 5350 60  0001 C CNN "Pavadinimas"
+F 11 "-" H 3650 5150 60  0001 C CNN "Gamintojo Kodas"
+F 12 "-" H 3750 5150 60  0001 C CNN "Nuoroda"
+F 13 "SMD" H 4950 5250 60  0001 C CNN "Korpuso tipas"
+	1    3150 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_1k_0805_1% R6
+U 1 1 5A95817B
+P 3800 2600
+F 0 "R6" V 4300 2600 60  0000 C CNN
+F 1 "1k" V 4200 2600 60  0000 C CNN
+F 2 "resistors:R_0805" H 4650 2500 60  0001 C CNN
+F 3 "" H 2200 3100 60  0001 C CNN
+F 4 "ZELRS061" H 3800 2400 60  0001 C CNN "ventcode"
+F 5 "1k" H 3800 2500 60  0001 C CNN "Nominalas"
+F 6 "0.001" H 5000 2400 60  0001 C CNN "Kaina"
+F 7 "0805" H 5300 2500 60  0001 C CNN "Korpusas"
+F 8 "1" H 4750 2400 60  0001 C CNN "Aukstis"
+F 9 "RK73" H 5350 2400 60  0001 C CNN "Marke"
+F 10 "Rezistorius" H 4550 2600 60  0001 C CNN "Pavadinimas"
+F 11 "-" H 4300 2400 60  0001 C CNN "Gamintojo Kodas"
+F 12 "-" H 4400 2400 60  0001 C CNN "Nuoroda"
+F 13 "SMD" H 5600 2500 60  0001 C CNN "Korpuso tipas"
+	1    3800 2600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R_1k_0805_1% R7
+U 1 1 5B3B77D7
+P 4000 2600
+F 0 "R7" V 4500 2600 60  0000 C CNN
+F 1 "1k" V 4400 2600 60  0000 C CNN
+F 2 "resistors:R_0805" H 4850 2500 60  0001 C CNN
+F 3 "" H 2400 3100 60  0001 C CNN
+F 4 "ZELRS061" H 4000 2400 60  0001 C CNN "ventcode"
+F 5 "1k" H 4000 2500 60  0001 C CNN "Nominalas"
+F 6 "0.001" H 5200 2400 60  0001 C CNN "Kaina"
+F 7 "0805" H 5500 2500 60  0001 C CNN "Korpusas"
+F 8 "1" H 4950 2400 60  0001 C CNN "Aukstis"
+F 9 "RK73" H 5550 2400 60  0001 C CNN "Marke"
+F 10 "Rezistorius" H 4750 2600 60  0001 C CNN "Pavadinimas"
+F 11 "-" H 4500 2400 60  0001 C CNN "Gamintojo Kodas"
+F 12 "-" H 4600 2400 60  0001 C CNN "Nuoroda"
+F 13 "SMD" H 5800 2500 60  0001 C CNN "Korpuso tipas"
+	1    4000 2600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R_1k_0805_1% R8
+U 1 1 5B3B7A72
+P 4200 2600
+F 0 "R8" V 4700 2600 60  0000 C CNN
+F 1 "1k" V 4600 2600 60  0000 C CNN
+F 2 "resistors:R_0805" H 5050 2500 60  0001 C CNN
+F 3 "" H 2600 3100 60  0001 C CNN
+F 4 "ZELRS061" H 4200 2400 60  0001 C CNN "ventcode"
+F 5 "1k" H 4200 2500 60  0001 C CNN "Nominalas"
+F 6 "0.001" H 5400 2400 60  0001 C CNN "Kaina"
+F 7 "0805" H 5700 2500 60  0001 C CNN "Korpusas"
+F 8 "1" H 5150 2400 60  0001 C CNN "Aukstis"
+F 9 "RK73" H 5750 2400 60  0001 C CNN "Marke"
+F 10 "Rezistorius" H 4950 2600 60  0001 C CNN "Pavadinimas"
+F 11 "-" H 4700 2400 60  0001 C CNN "Gamintojo Kodas"
+F 12 "-" H 4800 2400 60  0001 C CNN "Nuoroda"
+F 13 "SMD" H 6000 2500 60  0001 C CNN "Korpuso tipas"
+	1    4200 2600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R_1k_0805_1% R9
+U 1 1 5B3B7B1E
+P 4400 2600
+F 0 "R9" V 4900 2600 60  0000 C CNN
+F 1 "1k" V 4800 2600 60  0000 C CNN
+F 2 "resistors:R_0805" H 5250 2500 60  0001 C CNN
+F 3 "" H 2800 3100 60  0001 C CNN
+F 4 "ZELRS061" H 4400 2400 60  0001 C CNN "ventcode"
+F 5 "1k" H 4400 2500 60  0001 C CNN "Nominalas"
+F 6 "0.001" H 5600 2400 60  0001 C CNN "Kaina"
+F 7 "0805" H 5900 2500 60  0001 C CNN "Korpusas"
+F 8 "1" H 5350 2400 60  0001 C CNN "Aukstis"
+F 9 "RK73" H 5950 2400 60  0001 C CNN "Marke"
+F 10 "Rezistorius" H 5150 2600 60  0001 C CNN "Pavadinimas"
+F 11 "-" H 4900 2400 60  0001 C CNN "Gamintojo Kodas"
+F 12 "-" H 5000 2400 60  0001 C CNN "Nuoroda"
+F 13 "SMD" H 6200 2500 60  0001 C CNN "Korpuso tipas"
+	1    4400 2600
+	0    -1   -1   0   
+$EndComp
+$EndSCHEMATC
